@@ -1,0 +1,19 @@
+{
+  "components": {
+    "seeds": {
+      "DLGM": {
+        "src": "src/seeds/DLGM"
+      }
+    },
+    "plugins": {
+      "MiniProject2": {
+        "src": "src/plugins/MiniProject2",
+        "test": "test/plugins/MiniProject2"
+      }
+    }
+  },
+  "dependencies": {
+    "seeds": {},
+    "plugins": {}
+  }
+}

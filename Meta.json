@@ -1,0 +1,79 @@
+[
+    {
+        "path": "/0",
+        "nbrOfChildren": 3
+    },
+    {
+        "path": "/1",
+        "nbrOfChildren": 0,
+        "base": "null"
+    },
+    {
+        "path": "/3",
+        "nbrOfChildren": 1
+    },
+    {
+        "path": "/k",
+        "nbrOfChildren": 0
+    },
+    {
+        "path": "/P",
+        "nbrOfChildren": 2
+    },
+    {
+        "path": "/C",
+        "nbrOfChildren": 0
+    },
+    {
+        "path": "/G",
+        "nbrOfChildren": 0
+    },
+    {
+        "path": "/q",
+        "nbrOfChildren": 0
+    },
+    {
+        "path": "/Z",
+        "nbrOfChildren": 0
+    },
+    {
+        "path": "/K",
+        "nbrOfChildren": 13
+    },
+    {
+        "path": "/K/i",
+        "nbrOfChildren": 0
+    },
+    {
+        "path": "/K/g",
+        "nbrOfChildren": 0
+    },
+    {
+        "path": "/g",
+        "nbrOfChildren": 0
+    },
+    {
+        "path": "/R",
+        "nbrOfChildren": 0
+    },
+    {
+        "path": "/e",
+        "nbrOfChildren": 0
+    },
+    {
+        "path": "/L",
+        "nbrOfChildren": 0
+    },
+    {
+        "path": "/M",
+        "nbrOfChildren": 0
+    },
+    {
+        "path": "/n",
+        "nbrOfChildren": 0
+    },
+    {
+        "path": "/N",
+        "nbrOfChildren": 3
+    }
+]
