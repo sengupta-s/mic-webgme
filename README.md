@@ -1,10 +1,7 @@
-# mic-webgme
-## Installation
-First, install the mic-webgme following:
-- [NodeJS](https://nodejs.org/en/) (v4.x.x recommended)
-- [MongoDB](https://www.mongodb.com/)
+# SR_Clocked_Flip_Flop 
+#Metamodel as Miniproject1 with the Flip Flop as an example
+#Plugin with Tree.json and Meta.json as Miniproject2
 
-Second, start mongodb locally by running the `mongod` executable in your mongodb installation (you may need to create a `data` directory or set `--dbpath`).
+Wellformed rules: distinct connections between explicitly stated source and destination
 
-Then, run `webgme start` from the project root to start . Finally, navigate to `http://localhost:8888` to start using mic-webgme!
-"# mic--webgme_miniproject2" 
+Generic Metamodel, can be used to construct any circuit that uses a library of AND, OR and NOT Gates.
