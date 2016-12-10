@@ -1,0 +1,9 @@
+MATLAB roor directory in Program files-> R2016a
+
+---Execute following in cmd:
+
+>>start matlab -nosplash -nodesktop -minimize -r topsolver('TreeL.json','series')
+
+>>start matlab -nosplash -nodesktop -minimize -r topsolver_circuit('TreeFINAL.json','series',10)
+
+>>notepad.exe MIC3.txt

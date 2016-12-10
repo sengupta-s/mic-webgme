@@ -1,0 +1,451 @@
+{
+    "name": "ROOT",
+    "metaType": "",
+    "children": {
+        "0": {
+            "name": "FCO",
+            "metaType": "FCO",
+            "children": {}
+        },
+        "1": {
+            "name": "High",
+            "metaType": "High",
+            "children": {}
+        },
+        "2": {
+            "name": "Electrical Circuit Modeling Language",
+            "metaType": "Electrical Circuit Modeling Language",
+            "children": {
+                "0": {
+                    "name": "Resistor",
+                    "metaType": "Resistor",
+                    "value": 0,
+                    "R": 1,
+                    "L": 0,
+                    "children": {
+                        "0": {
+                            "name": "Right",
+                            "metaType": "Right",
+                            "children": {}
+                        },
+                        "1": {
+                            "name": "Left",
+                            "metaType": "Left",
+                            "children": {}
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Current flow",
+                    "metaType": "Current flow",
+                    "value": 0,
+                    "children": {}
+                },
+                "2": {
+                    "name": "Folder",
+                    "metaType": "Folder",
+                    "children": {}
+                },
+                "3": {
+                    "name": "Power source",
+                    "metaType": "Power source",
+                    "value": 0,
+                    "R": 1,
+                    "L": 0,
+                    "children": {
+                        "0": {
+                            "name": "High",
+                            "metaType": "High",
+                            "children": {}
+                        },
+                        "1": {
+                            "name": "Low",
+                            "metaType": "Low",
+                            "children": {}
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Circuit System",
+                    "metaType": "Circuit System",
+                    "children": {}
+                },
+                "5": {
+                    "name": "Circuit Components",
+                    "metaType": "Circuit Components",
+                    "R": 1,
+                    "L": 0,
+                    "children": {}
+                }
+            }
+        },
+        "3": {
+            "name": "Examples of the language",
+            "metaType": "Folder",
+            "children": {
+                "0": {
+                    "name": "Series+Parallel 2",
+                    "metaType": "Circuit System",
+                    "children": {
+                        "0": {
+                            "name": "R2",
+                            "metaType": "Resistor",
+                            "value": 5,
+                            "R": 3,
+                            "L": 1,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "metaType": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "metaType": "Left",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "1": {},
+                        "2": {
+                            "name": "R1",
+                            "metaType": "Resistor",
+                            "value": 4,
+                            "R": 2,
+                            "L": 1,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "metaType": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "metaType": "Left",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "3": {},
+                        "4": {},
+                        "5": {
+                            "name": "R4",
+                            "metaType": "Resistor",
+                            "value": 10,
+                            "R": 3,
+                            "L": 1,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "metaType": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "metaType": "Left",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "6": {
+                            "name": "R5",
+                            "metaType": "Resistor",
+                            "value": 25,
+                            "R": 2,
+                            "L": 4,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "metaType": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "metaType": "Left",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "7": {
+                            "name": "V",
+                            "metaType": "Power source",
+                            "value": 5,
+                            "R": 2,
+                            "L": 1,
+                            "children": {
+                                "0": {
+                                    "name": "Low",
+                                    "metaType": "Low",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "High",
+                                    "metaType": "High",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "8": {},
+                        "9": {},
+                        "10": {},
+                        "11": {
+                            "name": "R3",
+                            "metaType": "Resistor",
+                            "value": 30,
+                            "R": 2,
+                            "L": 3,
+                            "children": {
+                                "0": {
+                                    "name": "Left",
+                                    "metaType": "Left",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Right",
+                                    "metaType": "Right",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "12": {}
+                    }
+                },
+                "1": {
+                    "name": "Parallel 1",
+                    "metaType": "Circuit System",
+                    "children": {
+                        "0": {},
+                        "1": {
+                            "name": "V",
+                            "metaType": "Power source",
+                            "R": 2,
+                            "L": 1,
+                            "value": 30,
+                            "children": {
+                                "0": {
+                                    "name": "High",
+                                    "metaType": "High",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Low",
+                                    "metaType": "Low",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {
+                            "name": "R1",
+                            "metaType": "Resistor",
+                            "R": 2,
+                            "L": 1,
+                            "value": 10,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "metaType": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "metaType": "Left",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "6": {
+                            "name": "R2",
+                            "metaType": "Resistor",
+                            "R": 2,
+                            "L": 1,
+                            "value": 5,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "metaType": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "metaType": "Left",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Series+Parallel 1",
+                    "metaType": "Circuit System",
+                    "children": {
+                        "0": {},
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {
+                            "name": "R1",
+                            "metaType": "Resistor",
+                            "R": 1,
+                            "L": 3,
+                            "value": 10,
+                            "children": {
+                                "0": {
+                                    "name": "Left",
+                                    "metaType": "Left",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Right",
+                                    "metaType": "Right",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "6": {
+                            "name": "R2",
+                            "metaType": "Resistor",
+                            "R": 2,
+                            "L": 1,
+                            "value": 5,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "metaType": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "metaType": "Left",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "7": {
+                            "name": "R3",
+                            "metaType": "Resistor",
+                            "R": 2,
+                            "L": 3,
+                            "value": 5,
+                            "children": {
+                                "0": {
+                                    "name": "Left",
+                                    "metaType": "Left",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Right",
+                                    "metaType": "Right",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "8": {
+                            "name": "V",
+                            "metaType": "Power source",
+                            "R": 2,
+                            "L": 1,
+                            "value": 30,
+                            "children": {
+                                "0": {
+                                    "name": "High",
+                                    "metaType": "High",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Low",
+                                    "metaType": "Low",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Series 1",
+                    "metaType": "Circuit System",
+                    "children": {
+                        "0": {},
+                        "1": {
+                            "name": "R1",
+                            "metaType": "Resistor",
+                            "R": 3,
+                            "L": 1,
+                            "value": 10,
+                            "children": {
+                                "0": {
+                                    "name": "Left",
+                                    "metaType": "Left",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Right",
+                                    "metaType": "Right",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "2": {
+                            "name": "R2",
+                            "metaType": "Resistor",
+                            "R": 2,
+                            "L": 3,
+                            "value": 5,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "metaType": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "metaType": "Left",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "3": {},
+                        "4": {},
+                        "5": {
+                            "name": "V",
+                            "metaType": "Power source",
+                            "R": 2,
+                            "L": 1,
+                            "value": 30,
+                            "children": {
+                                "0": {
+                                    "name": "Low",
+                                    "metaType": "Low",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "High",
+                                    "metaType": "High",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "4": {
+            "name": "Left",
+            "metaType": "Left",
+            "children": {}
+        },
+        "5": {
+            "name": "Right",
+            "metaType": "Right",
+            "children": {}
+        },
+        "6": {
+            "name": "Low",
+            "metaType": "Low",
+            "children": {}
+        }
+    }
+}

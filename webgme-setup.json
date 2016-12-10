@@ -9,6 +9,30 @@
       "MiniProject2": {
         "src": "src/plugins/MiniProject2",
         "test": "test/plugins/MiniProject2"
+      },
+      "C2MF": {
+        "src": "src/plugins/C2MF",
+        "test": "test/plugins/C2MF"
+      },
+      "trialmat": {
+        "src": "src/plugins/trialmat",
+        "test": "test/plugins/trialmat"
+      },
+      "MICFINAL": {
+        "src": "src/plugins/MICFINAL",
+        "test": "test/plugins/MICFINAL"
+      },
+      "new": {
+        "src": "src/plugins/new",
+        "test": "test/plugins/new"
+      },
+      "rtc": {
+        "src": "src/plugins/rtc",
+        "test": "test/plugins/rtc"
+      },
+      "CircuitPlugin": {
+        "src": "src/plugins/CircuitPlugin",
+        "test": "test/plugins/CircuitPlugin"
       }
     }
   },

@@ -1,0 +1,4 @@
+parameter        value
+   v_1          -20
+   v_2          -30
+  I_V1           -8

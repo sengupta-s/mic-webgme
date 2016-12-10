@@ -1,0 +1,438 @@
+{
+    "name": "ROOT",
+    "children": {
+        "0": {
+            "name": "FCO",
+            "children": {}
+        },
+        "1": {
+            "name": "High",
+            "children": {}
+        },
+        "2": {
+            "name": "Electrical Circuit Modeling Language",
+            "children": {
+                "0": {
+                    "name": "Resistor",
+                    "value": 0,
+                    "R": 1,
+                    "L": 0,
+                    "children": {
+                        "0": {
+                            "name": "Right",
+                            "children": {}
+                        },
+                        "1": {
+                            "name": "Left",
+                            "children": {}
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Current flow",
+                    "value": 0,
+                    "children": {}
+                },
+                "2": {
+                    "name": "Folder",
+                    "children": {}
+                },
+                "3": {
+                    "name": "Power source",
+                    "value": 0,
+                    "R": 1,
+                    "L": 0,
+                    "children": {
+                        "0": {
+                            "name": "High",
+                            "children": {}
+                        },
+                        "1": {
+                            "name": "Low",
+                            "children": {}
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Circuit System",
+                    "children": {}
+                },
+                "5": {
+                    "name": "Circuit Components",
+                    "R": 1,
+                    "L": 0,
+                    "children": {}
+                }
+            }
+        },
+        "3": {
+            "name": "Examples of the language",
+            "children": {
+                "0": {
+                    "name": "Series+Parallel 2",
+                    "children": {
+                        "0": {
+                            "name": "R2",
+                            "value": 5,
+                            "R": 3,
+                            "L": 1,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "1": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "2": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "3": {
+                            "name": "R1",
+                            "value": 4,
+                            "R": 2,
+                            "L": 1,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "4": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "5": {
+                            "name": "R4",
+                            "value": 10,
+                            "R": 3,
+                            "L": 1,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "6": {
+                            "name": "R5",
+                            "value": 25,
+                            "R": 2,
+                            "L": 4,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "7": {
+                            "name": "V",
+                            "value": 5,
+                            "R": 2,
+                            "L": 1,
+                            "children": {
+                                "0": {
+                                    "name": "Low",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "High",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "8": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "9": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "10": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "11": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "12": {
+                            "name": "R3",
+                            "value": 30,
+                            "R": 2,
+                            "L": 3,
+                            "children": {
+                                "0": {
+                                    "name": "Left",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Right",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Parallel 1",
+                    "children": {
+                        "0": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "1": {
+                            "name": "V",
+                            "R": 2,
+                            "L": 1,
+                            "value": 30,
+                            "children": {
+                                "0": {
+                                    "name": "High",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Low",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "2": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "3": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "4": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "5": {
+                            "name": "R1",
+                            "R": 2,
+                            "L": 1,
+                            "value": 10,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "6": {
+                            "name": "R2",
+                            "R": 2,
+                            "L": 1,
+                            "value": 5,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Series+Parallel 1",
+                    "children": {
+                        "0": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "1": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "2": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "3": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "4": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "5": {
+                            "name": "R1",
+                            "R": 2,
+                            "L": 1,
+                            "value": 10,
+                            "children": {
+                                "0": {
+                                    "name": "Left",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Right",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "6": {
+                            "name": "R2",
+                            "R": 3,
+                            "L": 2,
+                            "value": 5,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "7": {
+                            "name": "R3",
+                            "R": 3,
+                            "L": 1,
+                            "value": 5,
+                            "children": {
+                                "0": {
+                                    "name": "Left",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Right",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "8": {
+                            "name": "V",
+                            "R": 3,
+                            "L": 1,
+                            "value": 30,
+                            "children": {
+                                "0": {
+                                    "name": "High",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Low",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Series 1",
+                    "children": {
+                        "0": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "1": {
+                            "name": "R1",
+                            "L": 0,
+                            "R": 2,
+                            "value": 10,
+                            "children": {
+                                "0": {
+                                    "name": "Left",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Right",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "2": {
+                            "name": "R2",
+                            "R": 1,
+                            "L": 2,
+                            "value": 5,
+                            "children": {
+                                "0": {
+                                    "name": "Right",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "Left",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "3": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "4": {
+                            "name": "Current flow",
+                            "value": 0
+                        },
+                        "5": {
+                            "name": "V",
+                            "L": 0,
+                            "value": 30,
+                            "R": 1,
+                            "children": {
+                                "0": {
+                                    "name": "Low",
+                                    "children": {}
+                                },
+                                "1": {
+                                    "name": "High",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "4": {
+            "name": "Left",
+            "children": {}
+        },
+        "5": {
+            "name": "Right",
+            "children": {}
+        },
+        "6": {
+            "name": "Low",
+            "children": {}
+        }
+    }
+}

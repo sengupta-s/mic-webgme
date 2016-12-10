@@ -1,0 +1,74 @@
+[
+    {
+        "name": "FCO",
+        "path": "/1",
+        "nbrOfChildren": 0,
+        "base": "null"
+    },
+    {
+        "name": "High",
+        "path": "/u",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Electrical Circuit Modeling Language",
+        "path": "/h",
+        "nbrOfChildren": 6,
+        "base": "FCO"
+    },
+    {
+        "name": "Resistor",
+        "path": "/h/5",
+        "nbrOfChildren": 2,
+        "base": "Circuit Components"
+    },
+    {
+        "name": "Current flow",
+        "path": "/h/G",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Folder",
+        "path": "/h/o",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Power source",
+        "path": "/h/j",
+        "nbrOfChildren": 2,
+        "base": "Circuit Components"
+    },
+    {
+        "name": "My new obj",
+        "path": "/h/I",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Circuit Components",
+        "path": "/h/y",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Left",
+        "path": "/c",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Right",
+        "path": "/U",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Low",
+        "path": "/v",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    }
+]
