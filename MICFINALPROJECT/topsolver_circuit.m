@@ -1,4 +1,4 @@
-%% Saptarshi Sengupta -CS 6388 MIC- Class Project- Vanderbilt University - 2016
+%% Saptarshi Sengupta and Anabil Munshi -CS 6388 MIC- Class Project- Vanderbilt University - 2016
 
 %%
  function []=topsolver_circuit(d,probtype,i)

@@ -1,4 +1,4 @@
-%%Saptarshi Sengupta - Vanderbilt University - 2016
+%%Saptarshi Sengupta and Anabil Munshi - Vanderbilt University - 2016
 
  function []=startsolving(d,probtype)
  data=loadjson(d);
